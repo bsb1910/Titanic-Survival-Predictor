@@ -60,13 +60,13 @@ The model achieves good prediction accuracy on test data.
 ## 📸 Screenshots
 
 ### Survival Count Graph
-![Graph](screenshots/survival_graph.png)
+![Graph](screenshots/survival_count.png)
 
 ### Confusion Matrix
 ![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ### Accuracy Output
-![Accuracy](screenshots/accuracy.png)
+![Accuracy](screenshots/model_accuracy.png)
 
 ## 👨‍💻 Author
 
