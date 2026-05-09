@@ -1,5 +1,8 @@
 # Titanic Survival Prediction 🚢
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![ML](https://img.shields.io/badge/Machine-Learning-green)
+
 A Machine Learning project that predicts whether a passenger survived the Titanic disaster using Logistic Regression.
 
 ## 📌 Features
