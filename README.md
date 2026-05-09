@@ -1,18 +1,20 @@
-# Titanic Survival Prediction 🚢
-
+# Titanic Survival Predictor 🚢
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![ML](https://img.shields.io/badge/Machine-Learning-green)
+Machine Learning project using Logistic Regression to predict whether a passenger survived the Titanic disaster.
 
-A Machine Learning project that predicts whether a passenger survived the Titanic disaster using Logistic Regression.
+---
 
 ## 📌 Features
 
 - Data preprocessing
-- Handling missing values
+- Missing value handling
 - Data visualization
 - Logistic Regression model
 - Accuracy evaluation
-- Confusion matrix visualization
+- Confusion matrix generation
+
+---
 
 ## 🛠 Technologies Used
 
@@ -23,50 +25,104 @@ A Machine Learning project that predicts whether a passenger survived the Titani
 - Seaborn
 - Scikit-learn
 
+---
+
 ## 📂 Project Structure
 
 ```bash
-Titanic-Survival-Prediction/
+Titanic-Survival-Predictor/
 │
-├── train.csv
 ├── titanic_prediction.py
+├── train.csv
 ├── requirements.txt
 ├── README.md
 └── screenshots/
 ```
 
+---
+
 ## ▶️ How to Run
 
-1. Install dependencies
+### 1️⃣ Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the project
+### 2️⃣ Run the Project
 
 ```bash
 python titanic_prediction.py
 ```
 
-## 📊 Model Used
+---
+
+## 🤖 Machine Learning Model
 
 - Logistic Regression
 
-## 📈 Accuracy
+---
 
-The model achieves good prediction accuracy on test data.
+## 📊 Model Accuracy
+
+- Training Accuracy: **80.75%**
+- Testing Accuracy: **78.21%**
+
+---
 
 ## 📸 Screenshots
 
-### Survival Count Graph
-![Graph](screenshots/survival_count.png)
+---
 
-### Confusion Matrix
+### 📌 Dataset Information
+
+![Dataset Info](screenshots/dataset_info.png)
+
+---
+
+### 📌 Model Accuracy & Classification Report
+
+![Model Accuracy](screenshots/model_accuracy.png)
+
+---
+
+### 📌 Confusion Matrix
+
 ![Confusion Matrix](screenshots/confusion_matrix.png)
 
-### Accuracy Output
-![Accuracy](screenshots/model_accuracy.png)
+---
+
+### 📌 Survival Count
+
+![Survival Count](screenshots/survival_count.png)
+
+---
+
+### 📌 Survival Count by Gender
+
+![Gender Survival](screenshots/gender_survival.png)
+
+---
+
+### 📌 Survival Count by Passenger Class
+
+![Passenger Class Survival](screenshots/passenger_class_survival.png)
+
+---
+
+## 📈 Conclusion
+
+The Logistic Regression model successfully predicts Titanic passenger survival with good accuracy using features like:
+
+- Gender
+- Age
+- Passenger Class
+- Fare
+- Embarked Port
+
+The project also visualizes important survival patterns through graphs and confusion matrix analysis.
+
+---
 
 ## 👨‍💻 Author
 
